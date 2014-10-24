@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView android:layout_height = "match_parent"
+        android:layout_width = "match_parent"
+        android:text = "@string/placeholder_text" />
+    
+    <!-- Note that whatever goes here is the same as what goes in the home page (use a fragment) -->
+    <TextView android:id = "@+id/drawer_contents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/placeholder_text"/>
+
+</DrawerLayout>
